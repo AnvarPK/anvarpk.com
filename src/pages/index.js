@@ -5,17 +5,21 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import indexStyles from './index.module.scss'
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className={indexStyles.content} >
+      <div className={indexStyles.image}>
+        <Image />
+      </div>
+      <div >
+        <h1>Anvar pk</h1>
+        <p>FullStack Developer</p>
+        <div>JavaScript | NodeJs | ReactJs | GatsbyJs | EmberJs</div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
