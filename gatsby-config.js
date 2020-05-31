@@ -12,7 +12,7 @@ module.exports = {
           {
             family: 'Montserrat',
             variable: true,
-            weights: ['100,200,300']
+            weights: ['100', '200', '300']
           }
         ]
       }
