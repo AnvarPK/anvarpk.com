@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import TechSlider from '../components/tech-slider'
 
 import indexStyles from './index.module.scss'
 
@@ -17,7 +18,7 @@ const IndexPage = () => (
       <div >
         <h1>Anvar pk</h1>
         <p>FullStack Developer</p>
-        <div>JavaScript | NodeJs | ReactJs | GatsbyJs | EmberJs</div>
+        <div><TechSlider /></div>
       </div>
     </div>
   </Layout>
