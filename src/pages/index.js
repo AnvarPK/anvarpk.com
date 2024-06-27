@@ -16,7 +16,7 @@ const IndexPage = () => (
         <Image />
       </div>
       <div >
-        <h1>Anvar pk</h1>
+        <h1>Anvar PK</h1>
         <p>FullStack Developer</p>
         <div><TechSlider /></div>
       </div>
